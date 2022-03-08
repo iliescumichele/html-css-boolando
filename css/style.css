@@ -48,6 +48,24 @@ body{
   padding: 10px 15px;
   font-size: 30px;
 }
+
+.favorites:hover{
+  cursor: cell;
+  color: red;
+}
+
+/* change img when mouse hover  */
+.img-product:hover .main-img{
+  display: none;
+}
+
+.img-product:hover .img-hover{
+  display: inline-block;
+}
+
+.img-hover{
+  display: none;
+}
 /* ---------------------------------- */
 
 
