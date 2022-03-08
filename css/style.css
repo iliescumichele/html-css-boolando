@@ -38,6 +38,16 @@ body{
 .img-product img{
   width: 100%;
 }
+
+/* hearth top-right of the img */
+.favorites{
+  position: absolute;
+  background-color: white;
+  top: 15px;
+  right: 0;
+  padding: 10px 15px;
+  font-size: 30px;
+}
 /* ---------------------------------- */
 
 
@@ -60,11 +70,21 @@ body{
   background-color: green;
 }
 
-.product-name:first-child p{
+.product-name p:first-child{ /*.brand*/
   font-size: 12px;
 }
 
-.product-name:last-child p{
+.product-name p:last-child { /*.brand-descr*/
   font-size: larger;
+  font-weight: bold;
+}
+
+.prices .price{
+  color: red;
+  font-weight: bold;
+}
+
+.prices .price-before{
+  text-decoration: line-through;
 }
 /* ---------------------------------- */
