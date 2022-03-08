@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 85%;
+  max-width: 1000px;
+  min-width: 800px;
+  margin: 20px auto;
+}
+
+
+.product{
+  width: 33.3%;
+}
+
+.img-product img{
+  width: 100%;
+}
